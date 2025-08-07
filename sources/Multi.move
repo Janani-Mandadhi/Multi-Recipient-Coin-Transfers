@@ -17,7 +17,7 @@ module janani_addr::MultiRecipientTransfer {
         move_to(account, stats);
     }
 
-    /// Batch transfer function to send coins to multiple recipients
+    
     public fun batch_transfer(
         sender: &signer,
         recipients: vector<address>,
@@ -51,3 +51,4 @@ module janani_addr::MultiRecipientTransfer {
     }
 
 }
+
